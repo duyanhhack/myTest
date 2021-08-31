@@ -1,0 +1,429 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Noto Sans KR', sans-serif;
+}
+a {
+    text-decoration: none !important;
+}
+.container {
+    padding: 0;
+}
+.header-bg {
+    background-image: url("../images/bg-image.png");
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider #slideShow .item img{
+    width: 372px;
+    height: 209px;
+}
+.slider h6 {
+    font-size: 19px;
+}
+.slider a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: black;
+}
+.row .col-ms-4 .bg-img img {
+    width: 100%;
+    height: auto;
+}
+header .container{
+    padding-top: 20px;
+    color: white;
+}
+header .container .header-top {
+    display: flex;
+}
+header .container .logo {
+    margin-left: 0;
+}
+header .container .header-selection {
+    margin-right: 0;
+}
+header .header-selection .btn-login {
+    background: none;
+    color: white;
+    width: 80px;
+    height: 32px;
+    border: 1px solid white;
+    font-size: 12px;
+    line-height: 20px;
+}
+header .header-selection .btn-join {
+    background: #fa5805;
+    color: white;
+    width: 80px;
+    height: 32px;
+    border: 1px solid #fa5805;
+    font-size: 12px;
+    line-height: 20px;
+}
+header .header-text {
+    margin:auto;
+    margin-top: 129px;
+    align-items: center;
+    max-width: 745px;
+}
+header .header-text h1 {
+    font-size: 60px;
+}
+header .header-text p {
+    padding-top: 40px;
+    font-weight: 300;
+    font-size: 18px;
+}
+.btn {
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 35px;
+    color: white;
+    border-radius: 10px;
+}
+header .header-text .btn-intro {
+    background: #fa5805;
+}
+.slider {
+    margin: 80px 0 120px 0;
+}
+.slider .container {
+    display: flex;
+    margin-bottom: 20px;
+}
+.slider .container h6 {
+    margin-left: 0;
+}
+.slider .container a{
+    margin-right: 0;
+}
+
+/* Tutorial */
+
+.tutorial {
+    background: #f9fafb;
+    padding: 80px 0;
+}
+h5.text-uppercase {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+.tutorial h5 {
+    color: #fa5805;
+}
+.tutorial h2 {
+    font-weight: 500;
+}
+.tutorial p {
+    font-size: 16px;
+    line-height: 30px;
+}
+.tutorial .row {
+    padding-top: 10px;
+}
+.tutorial .row .jumbotron {
+    width: fit-content;
+    position: relative;
+}
+.tutorial .row .jumbotron img {
+    width: 100%;
+    height: auto;
+}
+.tutorial .row .jumbotron {
+    padding: 0;
+}
+.tutorial .row .text {
+    max-width: 65%;
+}
+.arrow {
+    max-width: 35%;
+}
+.tutorial .row .text p {
+    font-weight: 300;
+
+}
+.tutorial .row .text h3 {
+    font-size: 30px;
+}
+.container-text {
+    display: flex;
+    max-width: 400px;
+}
+.container-text {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.videonly-introduce {
+    background-image: url("../images/bg-small.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.videonly-introduce .intro-details {
+    color: white;
+    padding: 80px 0;
+}
+.videonly-introduce .intro-details h3 {
+    font-size: 30px;
+}
+.videonly-introduce .intro-details p {
+    font-weight: 300;
+    font-size: 17px;
+}
+.videonly-introduce .intro-details .btn-detail {
+    color: black;
+    background: white;
+}
+.about .about-top {
+    background: #fa5805;
+    padding: 160px 0;
+}
+.about .about-top img {
+    width: 100%;
+    height: auto;
+}
+.about .about-bot img {
+    width: 100%;
+    height: auto;
+}
+.about .about-bot {
+    padding: 160px 0;
+}
+.about h3 {
+    font-size: 35px;
+    font-weight: 500;
+    padding: 5px 0;
+}
+.about p {
+    font-size: 20px;
+    padding: 10px;
+}
+.btn-ab-top {
+    background: black;
+    margin-top: 15px;
+}
+.btn-ab-bot {
+    background: #fa5805;
+    margin-top: 15px;
+}
+.product-bg {
+    background: #222222;
+    color: white;
+}
+.product-bg .container {
+    padding: 120px 0;
+}
+.product-bg .container h3 {
+    margin-bottom: 70px;
+}
+.product-bg .row .jumbotron {
+    background: white;
+    width: 395px;
+    height: 255px;
+    padding: 40px 0;
+    color: black;
+}
+.product-bg .row .jumbotron p {
+    font-size: 17pt;
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-weight:200;
+}
+.product-bg .row .jumbotron span {
+    font-size: 80px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+.product-footer {
+    padding-top: 80px;
+}
+.product-footer p {
+    font-size: 17pt;
+}
+.product-footer a.btn {
+    background: #fa5805;
+    margin-top: 10px;
+}
+.work-space-bg {
+    background-image: url("../images/small-bg-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.work-space-bg .container {
+    padding: 100px 0 80px 0;
+    color: white;
+}
+.work-space-bg .container h3 {
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+.work-space-bg .container p {
+    max-width: 500px;
+    font-size: 19px;
+    font-weight: 200;
+}
+.process h3 {
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+.process h5 {
+    padding-top: 30px;
+    color: #fa5805;
+}
+.process p {
+    max-width: 530px;
+    font-size: 19px;
+    font-weight: 200;
+    padding: 5px 0 24px 0;
+}
+.process {
+    padding: 120px 0;
+}
+.process-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.process-links .jumbotron {
+    max-width: 290px;
+    background: #f9fafb;
+    padding: 50px;
+}
+.process-links .jumbotron p {
+    font-size: 17px;
+    padding: 5px 0 0 0;
+    margin: 0;
+}
+footer {
+    background: #f9fafb;
+    padding: 60px 0 125px 0;
+}
+footer .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .container .footer-left {
+    margin-left: 0;
+}
+footer .container .footer-right {
+    margin-right: 0;
+}
+ul li {
+    list-style: none;
+}
+footer .container .footer-right ul {
+    display: flex;
+}
+footer .container .footer-right ul li {
+    padding: 5px;
+}
+@media (min-width: 1310px) {
+    .about .about-top .text-left {
+        padding-left: 140px;
+    }
+}
+@media (max-width: 1200px) {
+    header .container .logo {
+        margin-left: 20px;
+    }
+    header .container .header-selection {
+        margin-right: 20px;
+    }
+}
+@media (max-width: 992px) {
+    .about .about-top img {
+        width: 90%;
+        height: auto;
+    }
+    .about .about-bot img {
+        width: 90%;
+        height: auto;
+    }
+    .slider #slideShow .item img{
+        width: 350px;
+        height: 209px;
+    }
+    .about .about-top .container .text-left{
+        text-align: center !important;
+    }
+    .about .about-top .container .text-right{
+        text-align: center !important;
+    }
+    .about .about-bot .container .text-right{
+        text-align: center !important;
+        padding-bottom: 15px;
+    }
+    .tutorial .row .text h3 {
+        font-size: 13px;
+    }
+    /* .tutorial .row .jumbotron img {
+        width: 80%;
+        height: auto;
+    } */
+}
+@media (max-width: 768px) {
+    header .header-text {
+        margin-top: 80px;
+    }
+    header .header-text h1 {
+        font-size: 40px;
+    }
+    .container-text {
+        position: absolute;
+        top: 5%;
+        left: 0;
+    }
+    .tutorial .row .text h3 {
+        font-size: 24px;
+    }
+    .tutorial .row .jumbotron {
+        width: 80%;
+    }
+    .product-bg .row .jumbotron {
+        background: white;
+        width: 225px;
+        height: 235px;
+        padding: 40px 0;
+        color: black;
+    }
+}
+@media (max-width: 576px) {
+    .header-bg {
+        height: 555px;
+    }
+    header .header-text h1 {
+        font-size: 30px;
+    }
+    .slider #slideShow .item img{
+        width: 280px;
+        height: 140px;
+    }
+    .slider .container h6 {
+        margin-left: 20px;
+    }
+    .slider .container a {
+        margin-right: 20;
+    }
+    .tutorial h5,h3, h2, p {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    ul {
+        margin: 0 20px;
+    }
+}
+
+
+
+
+
+.owl-nav, .owl-dots {
+    display: none;
+}
